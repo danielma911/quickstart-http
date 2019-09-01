@@ -1,4 +1,4 @@
 FROM scratch
-EXPOSE 5000
+EXPOSE 8080
 ENTRYPOINT ["/quickstart-http"]
 COPY ./bin/ /
